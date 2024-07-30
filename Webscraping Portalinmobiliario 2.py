@@ -16,7 +16,7 @@ df = pd.read_csv(csv_file)
 data = []
 
 # Iterar sobre las URLs en la columna A del archivo CSV
-for url in df['url']:  # Asegúrate de que la columna se llama 'A' o ajusta el nombre según corresponda
+for url in df['url']:  # Nombre de la columna entre corchetes.
     # Realizar la solicitud GET para obtener el contenido de la página
     response = requests.get(url)
     
