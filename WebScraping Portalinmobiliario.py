@@ -21,7 +21,7 @@ for url in df['url']:
 
     #browser.get(url)
 
-    # Connect to Website and pull in data
+    # Conectar al sitio y rescatar los datos
 
     #url = 'https://www.portalinmobiliario.com/arriendo/departamento/san-joaquin-metropolitana/888888369-edificio-altavista-nva#position%3D2%26search_layout%3Dgrid%26type%3Ditem%26tracking_id%3Dac0efcb3-f36a-46af-8683-5a3d67b230cc'
 
