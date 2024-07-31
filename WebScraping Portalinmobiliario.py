@@ -1,5 +1,5 @@
-#Rastrear las direcciones de los inmuebles en distintas publicaciones guardadas en un archivo csv e imprimirlas en la terminal
-# import libraries 
+#Rastrear e imprimir las direcciones de los inmuebles en distintas publicaciones cuyas url están guardadas en un archivo csv.
+# importar librerías 
 from bs4 import BeautifulSoup
 import requests
 import sys
@@ -9,7 +9,6 @@ from selenium import webdriver
 sys.stdout.reconfigure(encoding='utf-8')
 
 import smtplib
-
 
 # Leer las URLs desde el archivo CSV
 csv_file = 'urls_inmuebles.csv'
